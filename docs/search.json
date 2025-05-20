@@ -1,0 +1,397 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MTH161 :: Elementary Statistics  Fall 2025",
+    "section": "",
+    "text": "Welcome!\n\nThis page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nPREPARE\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Aug 26\nWelcome to MTH 161!\n\n\n🖥️ slides  ☁️ ae-01  ⌨️ ae-01\n\n\n\n\n\n\nThu, Aug 28\nHello data\n📖 ims: Chp 1  💻 tutorial: 01-data-01 |&gt; submit\n🖥️ slides  ☁️ ae-02  ⌨️ ae-02  🗝️ ae-02-sa\n🔘 Survey: Getting to know you\n\n\n2\nTue, Sep 2\n\n\n\n\n\n\n\n\n\n\n\n\nThu, Sep 4\nStudy design\n📖 ims: Chp 2  💻 tutorial: 01-data-02 |&gt; submit  💻 tutorial: 01-data-03 |&gt; submit\n🖥️ slides  ☁️ ae-03  ⌨️ ae-03  🗝️ ae-03-sa\n\n\n\n\n3\nTue, Sep 9\nExploring categorical data\n📖 ims: Chp 4  💻 tutorial: 02-explore-01 |&gt; submit\n🖥️ slides  ☁️ ae-04  ⌨️ ae-04  🗝️ ae-04-sa\n\n\n\n\n\n\nThu, Sep 11\nExploring numerical data\n📖 ims: Chp 5  💻 tutorial: 02-explore-02 |&gt; submit\n🖥️ slides  ☁️ ae-05  ⌨️ ae-05  🗝️ ae-05-sa\n\n\n\n\n4\nTue, Sep 16\n\n\n📖 ims: Chp 7.1 - 7.2  💻 tutorial: 03-model-01 |&gt; submit  💻 tutorial: 03-model-02 |&gt; submit \n🖥️ slides  ☁️ ae-06  ⌨️ ae-06  🗝️ ae-06-sa\n\n\n\n\n\n\nThu, Sep 18\n\n\n📖 ims: Chp 7.2 - 7.4  💻 tutorial: 03-model-03 |&gt; submit\n\n\n\n\n\n\n5\nTue, Sep 23\n\n\n📖 ims: Chp 8.1 - 8.3\n🖥️ slides  ☁️ ae-07  ⌨️ ae-07  🗝️ ae-07-sa\n\n\n\n\n\n\nThu, Sep 25\n\n\n📖 ims: Chp 8.4 - 8.5\n🖥️ slides  ☁️ ae-08  ⌨️ ae-08  🗝️ ae-08-sa\n\n\n\n\n6\nTue, Sep 30\nRegression overview\n\n\n🖥️ slides\n\n\n\n\n\n\nThu, Oct 2\n\n\n\n\n\n\n\n\n\n\n7\nTue, Oct 7\n\n\n📖 ims: Chp 9.1 - 9.2\n🖥️ slides  ☁️ ae-09  ⌨️ ae-09  🗝️ ae-09-sa\n\n\n\n\n\n\nThu, Oct 9\n\n\n📖 ims: Chp 9.3 - 9.5\n🖥️ slides\n\n\n\n\n8\nTue, Oct 14\n🍂 Fall Break - No lecture",
+    "crumbs": [
+      "Quick Links",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "slides/00/00-welcome.html",
+    "href": "slides/00/00-welcome.html",
+    "title": "Welcome to MTH 161",
+    "section": "",
+    "text": "Section I\n\nTR 8:10-9:35, DB 230\n\nSection H\n\nTR 11:20-12:45, DB 230\n\n\n\n\n\n\n\n\n\n\n\n\n\nChris Hallstrom ( he / him)\n\nhallstro@up.edu\nBuckley Center 270\nDrop-in hours tba!\n\n\nThis week - TR 1-3, Wed afternoon, Friday 10-12 / 2-4"
+  },
+  {
+    "objectID": "slides/00/00-welcome.html#meet-your-professorcoach",
+    "href": "slides/00/00-welcome.html#meet-your-professorcoach",
+    "title": "Welcome to MTH 161",
+    "section": "Meet your professor/coach",
+    "text": "Meet your professor/coach\n\n\nChris Hallstrom ( he / him)\n\nhallstro@up.edu\nBuckley Center 270\nDrop-in hours tba!\n\n\nThis week - TR 1-3, Wed afternoon, Friday 10-12 / 2-4",
+    "crumbs": [
+      "Quick Links",
+      "Slides",
+      "Tuesday, Week 1"
+    ]
+  },
+  {
+    "objectID": "slides/00/00-welcome.html#i-invite-you-to",
+    "href": "slides/00/00-welcome.html#i-invite-you-to",
+    "title": "Welcome to MTH 161",
+    "section": "I invite you to…",
+    "text": "I invite you to…\nthink about how we use data to understand the world",
+    "crumbs": [
+      "Quick Links",
+      "Slides",
+      "Tuesday, Week 1"
+    ]
+  },
+  {
+    "objectID": "slides/00/00-welcome.html#still-in-your-groups",
+    "href": "slides/00/00-welcome.html#still-in-your-groups",
+    "title": "Welcome to MTH 161",
+    "section": "Still in your groups…",
+    "text": "Still in your groups…\n… for each of the following questions\n\n\n1. Think on your own about how you might answer (1 min)\n2. Discuss with your group your responses (5-8 min)\n3. Share out to the class one idea or thought (5 min)",
+    "crumbs": [
+      "Quick Links",
+      "Slides",
+      "Tuesday, Week 1"
+    ]
+  },
+  {
+    "objectID": "slides/00/00-welcome.html#what-are-the-goals-of-a-college-education",
+    "href": "slides/00/00-welcome.html#what-are-the-goals-of-a-college-education",
+    "title": "Welcome to MTH 161",
+    "section": "What are the goals of a college education?",
+    "text": "What are the goals of a college education?",
+    "crumbs": [
+      "Quick Links",
+      "Slides",
+      "Tuesday, Week 1"
+    ]
+  },
+  {
+    "objectID": "slides/00/00-welcome.html#how-does-a-person-learn-something-new",
+    "href": "slides/00/00-welcome.html#how-does-a-person-learn-something-new",
+    "title": "Welcome to MTH 161",
+    "section": "How does a person learn something new?",
+    "text": "How does a person learn something new?",
+    "crumbs": [
+      "Quick Links",
+      "Slides",
+      "Tuesday, Week 1"
+    ]
+  },
+  {
+    "objectID": "slides/00/00-welcome.html#what-do-you-expect-to-remember-from-your-classes-10-years-from-now",
+    "href": "slides/00/00-welcome.html#what-do-you-expect-to-remember-from-your-classes-10-years-from-now",
+    "title": "Welcome to MTH 161",
+    "section": "What do you expect to remember from your classes 10 years from now?",
+    "text": "What do you expect to remember from your classes 10 years from now?",
+    "crumbs": [
+      "Quick Links",
+      "Slides",
+      "Tuesday, Week 1"
+    ]
+  },
+  {
+    "objectID": "slides/00/00-welcome.html#what-is-the-value-of-making-mistakes",
+    "href": "slides/00/00-welcome.html#what-is-the-value-of-making-mistakes",
+    "title": "Welcome to MTH 161",
+    "section": "What is the value of making mistakes?",
+    "text": "What is the value of making mistakes?",
+    "crumbs": [
+      "Quick Links",
+      "Slides",
+      "Tuesday, Week 1"
+    ]
+  },
+  {
+    "objectID": "slides/00/00-welcome.html#how-can-we-create-an-environment-where-risk-taking-is-encouraged-and-productive-failure-is-valued",
+    "href": "slides/00/00-welcome.html#how-can-we-create-an-environment-where-risk-taking-is-encouraged-and-productive-failure-is-valued",
+    "title": "Welcome to MTH 161",
+    "section": "How can we create an environment where risk taking is encouraged and productive failure is valued?",
+    "text": "How can we create an environment where risk taking is encouraged and productive failure is valued?",
+    "crumbs": [
+      "Quick Links",
+      "Slides",
+      "Tuesday, Week 1"
+    ]
+  },
+  {
+    "objectID": "ae/ae-01/ae-01-penguins.html",
+    "href": "ae/ae-01/ae-01-penguins.html",
+    "title": "AE-01 Meet the Penguins",
+    "section": "",
+    "text": "In this activity, we will meet some penguins, start thinking about data and variables, and see some R code in action. The R package palmerpenguins includes the penguins dataset which contains size measurements for three species of penguins observed on three islands in the Palmer Archipelago in Antarctica.",
+    "crumbs": [
+      "Quick Links",
+      "AE",
+      "AE 01 Meet the Penguins"
+    ]
+  },
+  {
+    "objectID": "ae/ae-01/ae-01-penguins.html#goals",
+    "href": "ae/ae-01/ae-01-penguins.html#goals",
+    "title": "AE-01 Meet the Penguins",
+    "section": "Goals",
+    "text": "Goals\n\nIntroduce RStudio and Quarto documents.\nLearn about datasets and variables\nIntroduce basic R code for exploring datasets and variables. Specific R commands used in this activity include: head, glimpse, count, table, mean, ggplot",
+    "crumbs": [
+      "Quick Links",
+      "AE",
+      "AE 01 Meet the Penguins"
+    ]
+  },
+  {
+    "objectID": "ae/ae-01/ae-01-penguins.html#packages-and-data",
+    "href": "ae/ae-01/ae-01-penguins.html#packages-and-data",
+    "title": "AE-01 Meet the Penguins",
+    "section": "Packages and Data",
+    "text": "Packages and Data\nThroughout this course, we will be using the tidyverse package which is actually a collection of many other packages designed to simplify working with data. For this activity, we also need the package palmerpenguins which contains the dataset that we’ll be using.\nThe following code chunk loads these packages into R.\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n\n\nAbout the data\nThe palmerpenguins package includes data that were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network established by the National Science Foundation in 1980.\nYou can find more information about the palmerpenguins package by reading this vignette maintained by Allison Horst (who also drew our friends above).\n\n\nIn the world of R, a vingnette is a detailed description of a package. Looking at a package’s vingnette is a good way to learn the names of the datasets included in a package.",
+    "crumbs": [
+      "Quick Links",
+      "AE",
+      "AE 01 Meet the Penguins"
+    ]
+  },
+  {
+    "objectID": "general.html",
+    "href": "general.html",
+    "title": "General Course Info",
+    "section": "",
+    "text": "Section I\nTR 8:10-9:35\nDB 230\n\n\nSection H\nTR 11:20-12:45\nDB 230\n\n\n\n\nInstructor\nChris Hallstrom, PhD (he/him)\n\n\nEmail\nhallstro@up.edu Note that if you send me email after 5pm, there’s a very good chance that I will not see it until the following morning. Similarly, I don’t check my email often much on weekends. I will do my best to respond as soon as I am able.\n\n\nOffice\nBuckley Center 270. My office is on the second floor of the NW wing of Buckley Center (BC). While I do have specific times set aside for drop-in hours (see below), you are always welcome to stop by at anytime!\n\n\nWebpage\nAll course materials will be posted on our class Moodle page. I will regularly post a summary of our class activities so if you ever miss class for any reason, you can check here to see what you missed.\n\n\nTextbook\nReadings for the course will come from the following textbook which is freely available online. You do not need to purchase a physical copy of the book to succeed in this class.\n[ims]: Mine Çetinkaya-Rundel and Jo Hardin. Introduction to Modern Statistics. 2nd edition. OpenIntro, 2024.\nHere is another free resource you may find helpful.\n[r4ds]: Hadley Wickham,Mine Çetinkaya-Rundel, and Garrett Grolemund. R for Data Science. 2nd edition.\n\n\nTechnology\nIn this course, we will make use of the R programming language for data analysis and visualization and analysis. We’ll access R via web platform Posit Cloud. You will need a posit cloud student account to access course materials. Note that there is a small fee ($5 per month) for this subscription.\n\n\nCollaboration\nUnless otherwise instructed, I encourage you to work together with classmates on class assignments, although any work that you hand in (unless it’s a group assignment) should be your own.\n\n\nOnline resources (including AI)\nI am well aware that a huge volume of R code is available on the web to solve any number of problems. Since the focus of this course is not learning R, but rather interpreting the results of statistical analysis you may - unless explicitly told otherwise - make use of any online resources to obtain R code. You do need to explicitly cite where you obtained any code you directly use or are inspired by.\nYou should treat generative AI, such as ChatGPT, the same as other online resources. Again, if you do use AI tools for help in coding, you must explicity cite this.\nUnless instructed otherwise, you may not use generative AI to write narrative on assignments or to assist in answering exercises or homework problems. You are ultimately responsible for the work you turn in; it should reflect your understanding of the course content.\n\n\nLate work & extensions\nDue dates for assignments are there to give you structure and to help you keep up with the course material. They also help me provide you with feedback in a timely manner. That said, I understand that things come up periodically that can make it difficult to complete an assignment by the deadline. Life happens!\nIf something comes up that prevents you from completing an assignment by the posted due date, just send me email and let me know when I can expect your work. You do not need to provide an explanation. In general, I will expect to receive your work within one week.\nThere are, however, two hard deadlines to be aware of: Oct. 11th (Friday before Fall break) and Dec. 6th (last day of classes). Except in unusual circumstances or by prior arrangement, I will not accept work after those dates.\n\n\nImportant dates\n\nTuesday, August 27: Classes begin\nFriday, August 30: Last day to add/drop\nFriday, October 13: First hard deadline, Project 1 due\nMonday, October 15: Fall Break begins\nMonday, November 25: Last day to Withdraw\nThursday, November 28: Thanksgiving\nFriday, December 6: Last day of classes; 2nd hard deadline, Project 2 due\nMonday, December 9: Section H check-in, 10:30-12:30\nWednesday, December 11: Section I check-in, 1:30-3:30.",
+    "crumbs": [
+      "Quick Links",
+      "General Info"
+    ]
+  },
+  {
+    "objectID": "support.html",
+    "href": "support.html",
+    "title": "Student Support",
+    "section": "",
+    "text": "It is my experience that much of your learning in this course will occur outside of class. You might get stuck on a homework problem or lab exercise or perhaps have a question from class that did not get fully resolved. It is also my experience that significant learning occurs when you are talking through the material with another person. Finally, it’s important to remember that mathematics is a cumulative subject where material builds upon prior knowledge; once you get behind it is very hard to catch up.\nFor these reasons among others, I strongly encourage you to reach out at any time with any question. In addition to emailing me, or stopping by my office, here are some other ways to get help.\n\nDrop-In Student Hours\nI have set aside the times listed below during which I am available for drop-in help. You do not need to let me know you’re coming – just stop by my office (BC 270). Many students find these drop-in hours can be particularly helpful if you are working together with classmates. You can work together at one of the tables down the hall from my office and just pop in when you have any questions.\n\nTuesday 3-4\nWednesday 10-12\nThursday 2-3\n\n\n\n\n\n\n\nNote – if my schedule changes at any point, I may need to adjust these times. I will post any changes on Moodle.\n\n\n\n\n\nSign-Up Hours\nI recognize that your schedule might not allow you to stop by during the posted drop-in hours. Or you simply might find it more convenient to meet with me at a different time. If you go to my Calendly scheduler, you can sign-up for a time slot to meet, either in person or via zoom. If there is a specific time that you would like to meet and you don’t see it available on the Calendly scheduler, please reach out to me via email.\n\n\nOpen Door\nI have the scheduled drop-in hours simply to give you some times when you know that I’ll be available – but you are always welcome to stop by my office at any time. Unless I’m in class or in a meeting, I will generally be available to meet with you.\n\n\nMath Resource Center\nThe MRC offers both drop-in tutoring as well as scheduled, individualized help. I will post the MRC schedule on Moodle as soon as it becomes available (usually the second week of the semester). Note: the mth 161 tutors in the MRC will likely not be able to help with R questions.",
+    "crumbs": [
+      "Quick Links",
+      "Student Support"
+    ]
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "Course Content",
+    "section": "",
+    "text": "This course aims to introduce you to the discipline of statistics as a science of understanding and analyzing data. Themes include data collection, exploratory analysis, inference, and modeling. We will consider why in 1950, S. Wilks said, “Statistical thinking will one day be as necessary a qualification for efficient citizenship as the ability to read and write.”\nWe will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. We will acquire a conceptual understanding and proficiency in statistical and quantitative reasoning tools to help you critique and evaluate data-based claims and decisions.\nIn addition, students are presented with novel data sets and application examples on a daily basis, and they use these data to model outcomes and make inferences about unknown population characteristics. Students learn that the first step of any analysis is identifying the assumptions and conditions necessary to apply the statistical technique(s) required to answer the research question at hand. Students not only learn the mechanics of the quantitative analysis, but also how to interpret conclusions based on quantitative evidence in context of the data and the research questions as well as identifying limitations due to data collection and study design.",
+    "crumbs": [
+      "Quick Links",
+      "Course Content"
+    ]
+  },
+  {
+    "objectID": "content.html#course-learning-goals",
+    "href": "content.html#course-learning-goals",
+    "title": "Course Content",
+    "section": "Course Learning Goals",
+    "text": "Course Learning Goals\n\nRecognize the importance of data collection, identify limitations in data collection methods, and determine how they affect the scope of inference.\nUse statistical software to summarize data numerically and visually, and to perform data analysis.\nHave a conceptual understanding of the unified nature of statistical inference.\nApply estimation and testing methods to analyze single variables or the relationship between two variables in order to understand natural phenomena and make data-based decisions.\nModel numerical response variables using a single or multiple explanatory variables.\nInterpret results correctly, effectively, and in context without relying on statistical jargon.\nCritique data-based claims and evaluate data-based decisions.\nComplete research projects demonstrating mastery of statistical data analysis from exploratory analysis to inference to modeling.",
+    "crumbs": [
+      "Quick Links",
+      "Course Content"
+    ]
+  },
+  {
+    "objectID": "content.html#specific-learning-targets",
+    "href": "content.html#specific-learning-targets",
+    "title": "Course Content",
+    "section": "Specific Learning Targets",
+    "text": "Specific Learning Targets\nBy the end of this course, I expect that you will to be proficient in the rudiments of data analysis, probability, hypothesis testing, correlation and regression. You should be able to:\n\nPerform an exploratory analysis of univariate and bivariate data.\nSummarize data graphically using histograms, box plots, scatter plots, etc.\nSummarize data numerically using measures of central tendency and variation.\nRecognize a properly defined probability distribution function.\nCalculate the probabilities of events in a sample space.\nArticulate the concept of a random variable.\nCalculate probabilities associated with basic types of random variables.\nArticulate the Central Limit Theorem.\nCompute and interpret confidence intervals.\nArticulate the underlying reasons for steps in hypothesis testing.\nSet up, conduct and interpret a hypothesis test.\nCalculate and interpret the least-squares regression line and correlation coefficient from bivariate data.",
+    "crumbs": [
+      "Quick Links",
+      "Course Content"
+    ]
+  },
+  {
+    "objectID": "content.html#university-core",
+    "href": "content.html#university-core",
+    "title": "Course Content",
+    "section": "University Core",
+    "text": "University Core\nThe University of Portland offers a liberal arts Core Curriculum with a vision of students acquiring knowledge, skills, and values that will prepare you to respond to the needs of the world and its human family, while having a foundation of multiple lenses to address enduring questions of human concern. The University Core Curriculum strives to achieve this vision by cultivating six habits of heart and mind in all graduates regardless of major.\nOur focus for this Core class is the “scientific and quantitative literacy and problem solving” habit. In particular, you will learn to employ mathematical and statistical skills to explore and make sense of data. A specific Core learning outcome is that by the end of this course, you will be able to calculate inferential statistics from data and appropriately interpret the results.",
+    "crumbs": [
+      "Quick Links",
+      "Course Content"
+    ]
+  },
+  {
+    "objectID": "structure.html",
+    "href": "structure.html",
+    "title": "Class Structure",
+    "section": "",
+    "text": "To get the most out of this course, you should be present and actively engaged in class. There are many ways to be engaged: regularly attending class, completing pre-class and other assignments on-time, engaging productively in group work, asking questions, supporting your classmates, coming to student support hours, and more. To help you develop a habit of engagment, you will have a weekly opportunity to reflect on how you’re engaging in our class.\nWhile I do expect you to be in class, I also recognize that occasionally things come up that might prevent you from being there. If you do miss class, you can always check our class Moodle page to see what we covered that day. If you find yourself missing class more than a few times, you can expect that I will check with you to see how I can support your attendence better.",
+    "crumbs": [
+      "Quick Links",
+      "Class Structure"
+    ]
+  },
+  {
+    "objectID": "structure.html#attendance-and-engagement",
+    "href": "structure.html#attendance-and-engagement",
+    "title": "Class Structure",
+    "section": "",
+    "text": "To get the most out of this course, you should be present and actively engaged in class. There are many ways to be engaged: regularly attending class, completing pre-class and other assignments on-time, engaging productively in group work, asking questions, supporting your classmates, coming to student support hours, and more. To help you develop a habit of engagment, you will have a weekly opportunity to reflect on how you’re engaging in our class.\nWhile I do expect you to be in class, I also recognize that occasionally things come up that might prevent you from being there. If you do miss class, you can always check our class Moodle page to see what we covered that day. If you find yourself missing class more than a few times, you can expect that I will check with you to see how I can support your attendence better.",
+    "crumbs": [
+      "Quick Links",
+      "Class Structure"
+    ]
+  },
+  {
+    "objectID": "structure.html#homework",
+    "href": "structure.html#homework",
+    "title": "Class Structure",
+    "section": "Homework",
+    "text": "Homework\nMuch of our class time will be devoted to working together on activities designed to build understanding on concepts introduced in the textbook. To help ensure that you’re prepared for class, I will assign short daily homework (typically 2-3 problems from the book). You should plan on coming to class prepared to discuss this work with your classmates.",
+    "crumbs": [
+      "Quick Links",
+      "Class Structure"
+    ]
+  },
+  {
+    "objectID": "structure.html#application-exercises-ae",
+    "href": "structure.html#application-exercises-ae",
+    "title": "Class Structure",
+    "section": "Application Exercises (AE)",
+    "text": "Application Exercises (AE)\nThese are in-class activities that we will work on in groups. They are designed to introduce or reinforce specific concepts as well as introduce chunks of R code that we’ll use for visualization and data analysis. If you have a laptop or tablet, you may find it helpful to bring it to class but as long as someone at your table has a device, that will be sufficient.",
+    "crumbs": [
+      "Quick Links",
+      "Class Structure"
+    ]
+  },
+  {
+    "objectID": "structure.html#interactive-r-tutorials",
+    "href": "structure.html#interactive-r-tutorials",
+    "title": "Class Structure",
+    "section": "Interactive R tutorials",
+    "text": "Interactive R tutorials\nEach chapter in our book includes a number of interactive tutorials to help you learn how to use R for data visualization and analysis. While these are not required, they are highly recommended for developing proficiency in using R. You can include this work in your weekly report.",
+    "crumbs": [
+      "Quick Links",
+      "Class Structure"
+    ]
+  },
+  {
+    "objectID": "structure.html#weekly-engagement-report",
+    "href": "structure.html#weekly-engagement-report",
+    "title": "Class Structure",
+    "section": "Weekly Engagement Report",
+    "text": "Weekly Engagement Report\nEach week, I will ask you to complete a short one-page reflection on that week’s engagement. Your report should include the following information:\n\nHow did you engage in the class this week? Did you attend class? Did you attend student support hours?\nDid you complete the assigned homework problems? Did you find them helpful?\n\nDid you complete any other course work this week, i.e. labs or R tutorials?\nWhat questions came up for you have while doing these problems or doing the class activities? How did you resolve these questions? What questions do you still have?",
+    "crumbs": [
+      "Quick Links",
+      "Class Structure"
+    ]
+  },
+  {
+    "objectID": "structure.html#labs",
+    "href": "structure.html#labs",
+    "title": "Class Structure",
+    "section": "Labs",
+    "text": "Labs\nApproximately every two weeks, I will assign a lab. You can think of these as extended homework assignments that will combine concepts with practice. You will use Posit Cloud to work on a lab report which you’ll submit on Moodle. I will provide feedback after which you’re welcome to resubmit any work within one week. A lab is considered complete only when feedback has been addressed.",
+    "crumbs": [
+      "Quick Links",
+      "Class Structure"
+    ]
+  },
+  {
+    "objectID": "structure.html#quizzes",
+    "href": "structure.html#quizzes",
+    "title": "Class Structure",
+    "section": "Quizzes",
+    "text": "Quizzes\nWe may have occasional short in-class quizzes which will help both you and me to check-in about where you are with your understanding of the material.\n\nFinal Check-In: Instead of a final “exam”, we will have one last check-in during the timeslot designated for our final. This is simply one last opportunity for you to demonstrate your learning. It is also optional in the sense that if you have already demonstrated your learning through other means (labs, projects, etc) then you don’t need to do it here as well. If you’re unsure whether this last check-in would benefit you, come talk to me!\n\nSection H: Monday, Dec. 9th, 10:30-12:30\nSection I: Wednesday, Dec. 11th, 1:30-3:30",
+    "crumbs": [
+      "Quick Links",
+      "Class Structure"
+    ]
+  },
+  {
+    "objectID": "structure.html#projects",
+    "href": "structure.html#projects",
+    "title": "Class Structure",
+    "section": "Projects",
+    "text": "Projects\nThere are two projects in this course - the first one is due Friday Oct. 13th and the second one is due at the end of the semester, Friday Dec. 6. Details about the projects will be posted here and announced in class as we approach those dates.",
+    "crumbs": [
+      "Quick Links",
+      "Class Structure"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "This course will introduce you to the discipline of statistics as a science of understanding and analyzing data. Themes include data collection, exploratory analysis, inference, and modeling. We will consider why in 1950, S. Wilks said, “Statistical thinking will one day be as necessary a qualification for efficient citizenship as the ability to read and write.”\nYou will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. You will acquire a conceptual understanding and proficiency in statistical and quantitative reasoning tools to help you critique and evaluate data-based claims and decisions.\nMTH 161, Elementary Statistics, provides students with an introduction to the methods and concepts involved in working with data and non-deterministic situations. In this class, you will:\n\nexposed to the conceptual structure of statistics and its underpinnings in discrete and continuous probability theory.\nexposed to the pervasive use of statistics in other disciplines.\nexposed to the uses and misuses of statistical inference (e.g. hypothesis tests) in technical journals and the popular press.\nintroduced to concepts in statistical inference, such as the importance of randomized design, how to collect good data, how to analyze the data, and how to carry out and properly interpret the results of hypothesis tests.\ndevelop skills in using computer software to do statistical analysis and inference.\n\nUpon completion of the course you can expect to be conversant in the rudiments of data analysis, probability, hypothesis testing, correlation and regression. At the end of the semester, a successful student will be able to say they can:\n\nPerform an exploratory analysis of univariate and bivariate data.\nSummarize data graphically using histograms, boxplots, scatter plots, etc.\nSummarize data numerically using measures of central tendency and variation.\nRecognize a properly defined probability distribution function.\nCalculate the probabilities of events in a sample space.\nArticulate the concept of a random variable.\nCalculate probabilities associated with basic types of random variables.\nArticulate the Central Limit Theorem.\nCompute and interpret confidence intervals.\nArticulate the underlying reasons for steps in hypothesis testing.\nSetup, conduct and interpret a hypothesis test.\nCalculate and interpret the least-squares regression line correlation coefficient from bivariate data."
+  },
+  {
+    "objectID": "course-overview.html#overview",
+    "href": "course-overview.html#overview",
+    "title": "Course overview",
+    "section": "",
+    "text": "This course will introduce you to the discipline of statistics as a science of understanding and analyzing data. Themes include data collection, exploratory analysis, inference, and modeling. We will consider why in 1950, S. Wilks said, “Statistical thinking will one day be as necessary a qualification for efficient citizenship as the ability to read and write.”\nYou will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. You will acquire a conceptual understanding and proficiency in statistical and quantitative reasoning tools to help you critique and evaluate data-based claims and decisions.\nMTH 161, Elementary Statistics, provides students with an introduction to the methods and concepts involved in working with data and non-deterministic situations. In this class, you will:\n\nexposed to the conceptual structure of statistics and its underpinnings in discrete and continuous probability theory.\nexposed to the pervasive use of statistics in other disciplines.\nexposed to the uses and misuses of statistical inference (e.g. hypothesis tests) in technical journals and the popular press.\nintroduced to concepts in statistical inference, such as the importance of randomized design, how to collect good data, how to analyze the data, and how to carry out and properly interpret the results of hypothesis tests.\ndevelop skills in using computer software to do statistical analysis and inference.\n\nUpon completion of the course you can expect to be conversant in the rudiments of data analysis, probability, hypothesis testing, correlation and regression. At the end of the semester, a successful student will be able to say they can:\n\nPerform an exploratory analysis of univariate and bivariate data.\nSummarize data graphically using histograms, boxplots, scatter plots, etc.\nSummarize data numerically using measures of central tendency and variation.\nRecognize a properly defined probability distribution function.\nCalculate the probabilities of events in a sample space.\nArticulate the concept of a random variable.\nCalculate probabilities associated with basic types of random variables.\nArticulate the Central Limit Theorem.\nCompute and interpret confidence intervals.\nArticulate the underlying reasons for steps in hypothesis testing.\nSetup, conduct and interpret a hypothesis test.\nCalculate and interpret the least-squares regression line correlation coefficient from bivariate data."
+  },
+  {
+    "objectID": "course-links.html",
+    "href": "course-links.html",
+    "title": "Useful links",
+    "section": "",
+    "text": "Posit Cloud\n🔗 Posit Cloud\n\n\nTextbooks\n🔗 Introduction to Modern Statistics, 2nd Edition\n🔗 R for Data Science, 2nd Edition\n\n\nCourse Moodle Page.\n🔗 learning.up.edu",
+    "crumbs": [
+      "Quick Links",
+      "Useful Links"
+    ]
+  },
+  {
+    "objectID": "grades.html",
+    "href": "grades.html",
+    "title": "Grades",
+    "section": "",
+    "text": "Extrinsic motivation, which includes a desire to get better grades, is not only different from, but often undermines, intrinsic motivation, a desire to learn for its own sake.\n\n– Alfie Kohn, “The Case Against Grades”\nGrades, as they are traditionally thought of, are inherently imprecise and don’t represent a full picture of your growth and learning over the course of a semester. Worse than that, research shows that grades undermine the learning process in several ways:\nUnfortunately, I am required to submit a grade for each student at the end of the semester – but I will do what I can to de-emphasize the role of grades in this course so that as much as possible our focus is on learning.",
+    "crumbs": [
+      "Quick Links",
+      "Grades"
+    ]
+  },
+  {
+    "objectID": "grades.html#feedback-and-revisions",
+    "href": "grades.html#feedback-and-revisions",
+    "title": "Grades",
+    "section": "Feedback and Revisions",
+    "text": "Feedback and Revisions\nYour goal throughout the semester is to demonstrate your understanding of the course material and specifically our stated learning objectives through your work. Rather than giving you marks on individual assignments, I will instead give you written feedback to let you know how I see your understanding reflected in your work. After addressing that feedback, you’re welcome to resubmit for further feedback if needed.\nThroughout the semester, I will also periodically ask you to reflect carefully on your work and to self-evaluate your progress. The primary pieces of evidence of your learning will be the labs and the projects, but you’re welcome to include any other work in these reflections that you feel demonstrates your learning.",
+    "crumbs": [
+      "Quick Links",
+      "Grades"
+    ]
+  },
+  {
+    "objectID": "grades.html#collaborative-grading",
+    "href": "grades.html#collaborative-grading",
+    "title": "Grades",
+    "section": "Collaborative Grading",
+    "text": "Collaborative Grading\nAt mid-semester and again at the end of the semester, we will compare notes about where you are in your learning. I’ll ask you to present evidence of your learning and in this way, we will determine your your grade collaboratively.\nThe intention here is to help you focus on learning in a way that is more organic, as opposed to simply working as you think you’re expected to. If this process causes more anxiety than it alleviates, please see me at any point to confer about your progress in the course – I’m always happy to talk with you about your learning!",
+    "crumbs": [
+      "Quick Links",
+      "Grades"
+    ]
+  },
+  {
+    "objectID": "grades.html#engagement",
+    "href": "grades.html#engagement",
+    "title": "Grades",
+    "section": "Engagement",
+    "text": "Engagement\nAlthough your course grade will primarily be based on your understanding of course content and not on course engagement, in my experience these typically go hand in hand. So while engagement in the course is not itself evidence of understanding, it does usually help us achieve that goal.\nHere are some ways that you can engage with the class:\n\nAttend class regularly\nComplete assigned problems before class so you’re prepared to engage with that day’s material.\nContribute to in-class group work including Application Exercises.\nComplete weekly engagement reports\nComplete periodic check-ins\nCome to drop-in hours to ask questions\nComplete labs on time – and asking for help when needed.\nCompleting projects on time – and asking for help when needed.",
+    "crumbs": [
+      "Quick Links",
+      "Grades"
+    ]
+  },
+  {
+    "objectID": "grades.html#grade-guidelines",
+    "href": "grades.html#grade-guidelines",
+    "title": "Grades",
+    "section": "Grade Guidelines",
+    "text": "Grade Guidelines\nHere are some qualitative descriptions that I find helpful in thinking about student grades. You might find them helpful as well.\n\nA\n\nThis grade generally indicates superior work that demonstrates a deep understanding of the material such that you could apply the material in unfamiliar or especially complex situations. You should should consistently demonstrate this deep understanding of the material using a wide variety of methods described above. This grade likely includes:\n\n\n\ndemonstrating significant course engagement, including homework, as evidenced in weekly engagement reports and AEs\nsuccessfully completing all lab assignments\nsuccessfully completing both projects\n\n\nB\n\nThis grade indicates good work that is eminently satisfactory. You should be able to use and extend this knowledge in many situations although you might have difficulty with particularly challenging or unfamilar problems. You should consistently demonstrate your understanding of the material using some of the methods described above. This grade likely includes\n\n\n\ndemonstrating many elements of course engagement as evidenced in weekly engagement reports and AEs\ncompleting most lab assignments\ncompleting both projects\n\n\nC\n\nThis grade indicates competent work that demonstrates an basic understanding of the course material. You should be able to handle most of the more straightforward problems encountered but might struggle with more challenging problems. You might consistently meet only a few of the criteria listed above or else meet several criteria but less often. This grade likely includes\n\n\n\ndemonstrating some elements of course engagement as evidence in weekly engagement reports and AEs\ncompleting some lab assignments\nattempting at least one project\n\n\nD/F\n\nThese grades represent a fundamental breakdown of expectations. A D represents a meaningful but unsuccessful attempt at earning a C or above. An F represents such a severe lack of engagement, effort, or understanding that there is no evidence of meaningful progress.\n\n+/-\n\nIn discussing your course grade together, we may opt to add a modifier to your grade.\n\n\n\nA \\(\\mathbf{-}\\) modifier might be added to your grade if you’ve met the standards for a particular grade with the exception of one element (engagement, labs, or projects e.g.)\nA \\(\\mathbf{+}\\) modifier might be added to your grade if you’ve met the standards for a particular grade and you’ve met one of the elements for a higher grade.",
+    "crumbs": [
+      "Quick Links",
+      "Grades"
+    ]
+  }
+]

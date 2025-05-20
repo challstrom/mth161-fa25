@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+
+book:
+  title: "MTH161 :: Fall 2025"
+  author: "Chris Hallstrom"
+  date: "5/2025"
+  chapters:
+    - index.qmd
+
+website:
+  title: "mth161 :: Elementary Statistics"
+  navbar:
+    background: "#FA812F"
+    right:
+      - href: course-links.qmd
+        text: Quick Links
+  sidebar:
+    background: "#FEF3E2"
+#    logo: "images/logo.png"
+    pinned: true
+    align: center
+
+    style: docked
+    search: true
+    collapse-level: 1
+
+    contents:
+      - href: index.qmd
+        text: Welcome
+      - href: general.qmd
+        text: General Info
+      - href: support.qmd
+      - href: content.qmd
+      - href: structure.qmd
+      - href: grades.qmd
+      - href: UPElements.qmd
+        text: University Policies
+      - href: course-links.qmd
+        text: Useful Links
+      - section: "Slides"
+        contents:
+          - href: slides/00/00-welcome.qmd
+            text: "Tuesday, Week 1"
+      - section: "AE"
+        contents:
+          - href: ae/ae-01/ae-01-penguins.qmd
+            text: "AE 01 Meet the Penguins"
+
+format:
+  html:
+    #theme: cosmo
+    theme: simplex
+    css: style/mth161.scss
+    toc: true
+
+editor: visual
+

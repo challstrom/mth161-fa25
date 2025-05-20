@@ -1,0 +1,48 @@
+---
+title: "Course Content"
+format:
+  html: 
+    toc: true
+    toc-expand: 2
+    toc-title: "On this page"
+---
+
+This course aims to introduce you to the discipline of statistics as a science of understanding and analyzing data. Themes include data collection, exploratory analysis, inference, and modeling. We will consider why in 1950, S. Wilks said, "Statistical thinking will one day be as necessary a qualification for efficient citizenship as the ability to read and write."
+
+We will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. We will acquire a conceptual understanding and proficiency in statistical and quantitative reasoning tools to help you critique and evaluate data-based claims and decisions.
+
+In addition, students are presented with novel data sets and application examples on a daily basis, and they use these data to model outcomes and make inferences about unknown population characteristics. Students learn that the first step of any analysis is identifying the assumptions and conditions necessary to apply the statistical technique(s) required to answer the research question at hand. Students not only learn the mechanics of the quantitative analysis, but also how to interpret conclusions based on quantitative evidence in context of the data and the research questions as well as identifying limitations due to data collection and study design.
+
+## Course Learning Goals
+
+-   Recognize the importance of data collection, identify limitations in data collection methods, and determine how they affect the scope of inference.
+-   Use statistical software to summarize data numerically and visually, and to perform data analysis.
+-   Have a conceptual understanding of the unified nature of statistical inference.
+-   Apply estimation and testing methods to analyze single variables or the relationship between two variables in order to understand natural phenomena and make data-based decisions.
+-   Model numerical response variables using a single or multiple explanatory variables.
+-   Interpret results correctly, effectively, and in context without relying on statistical jargon.
+-   Critique data-based claims and evaluate data-based decisions.
+-   Complete research projects demonstrating mastery of statistical data analysis from exploratory analysis to inference to modeling.
+
+## Specific Learning Targets
+
+By the end of this course, I expect that you will to be proficient in the rudiments of data analysis, probability, hypothesis testing, correlation and regression. You should be able to:
+
+1.  Perform an exploratory analysis of univariate and bivariate data.
+2.  Summarize data graphically using histograms, box plots, scatter plots, etc.
+3.  Summarize data numerically using measures of central tendency and variation.
+4.  Recognize a properly defined probability distribution function.
+5.  Calculate the probabilities of events in a sample space.
+6.  Articulate the concept of a random variable.
+7.  Calculate probabilities associated with basic types of random variables.
+8.  Articulate the Central Limit Theorem.
+9.  Compute and interpret confidence intervals.
+10. Articulate the underlying reasons for steps in hypothesis testing.
+11. Set up, conduct and interpret a hypothesis test.
+12. Calculate and interpret the least-squares regression line and correlation coefficient from bivariate data.
+
+## University Core
+
+The University of Portland offers a liberal arts Core Curriculum with a vision of students acquiring knowledge, skills, and values that will prepare you to respond to the needs of the world and its human family, while having a foundation of multiple lenses to address enduring questions of human concern. The University Core Curriculum strives to achieve this vision by cultivating six habits of heart and mind in all graduates regardless of major.
+
+Our focus for this Core class is the “scientific and quantitative literacy and problem solving” habit. In particular, you will learn to employ mathematical and statistical skills to explore and make sense of data. A specific Core learning outcome is that by the end of this course, you will be able to calculate inferential statistics from data and appropriately interpret the results.

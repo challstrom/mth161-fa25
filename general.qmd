@@ -1,0 +1,76 @@
+---
+title: "General Course Info"
+format:
+  html: default
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+---
+
+|               |                |        |
+|---------------|----------------|--------|
+| **Section I** | TR 8:10-9:35   | DB 230 |
+| **Section H** | TR 11:20-12:45 | DB 230 |
+
+### Instructor
+
+Chris Hallstrom, PhD (he/him)
+
+### Email
+
+[hallstro\@up.edu](//mailto:hallstro@up.edu) Note that if you send me email after 5pm, there's a very good chance that I will not see it until the following morning. Similarly, I don't check my email often much on weekends. I will do my best to respond as soon as I am able.
+
+### Office
+
+Buckley Center 270. My office is on the second floor of the NW wing of Buckley Center (BC). While I do have specific times set aside for drop-in hours (see below), you are always welcome to stop by at anytime!
+
+### Webpage
+
+All course materials will be posted on our class [Moodle](https://learning.up.edu) page. I will regularly post a summary of our class activities so if you ever miss class for any reason, you can check here to see what you missed.
+
+### Textbook
+
+Readings for the course will come from the following textbook which is **freely available online**. You do not need to purchase a physical copy of the book to succeed in this class.
+
+`[ims]`: Mine Çetinkaya-Rundel and Jo Hardin. [Introduction to Modern Statistics](https://openintro-ims2.netlify.app/). 2nd edition. OpenIntro, 2024.
+
+Here is another free resource you may find helpful.
+
+`[r4ds]`: Hadley Wickham,Mine Çetinkaya-Rundel, and Garrett Grolemund. [R for Data Science](https://r4ds.hadley.nz/). 2nd edition.
+
+### Technology
+
+In this course, we will make use of the R programming language for data analysis and visualization and analysis. We'll access R via web platform [Posit Cloud](https://posit.cloud). You will need a posit cloud student account to access course materials. Note that there is a small fee (\$5 per month) for this subscription.
+
+### Collaboration
+
+Unless otherwise instructed, I encourage you to work together with classmates on class assignments, although any work that you hand in (unless it's a group assignment) should be your own.
+
+### Online resources (including AI)
+
+I am well aware that a huge volume of R code is available on the web to solve any number of problems. Since the focus of this course is not learning R, but rather interpreting the results of statistical analysis you may - unless explicitly told otherwise - make use of any online resources to obtain R code. You do need to explicitly cite where you obtained any code you directly use or are inspired by.
+
+You should treat generative AI, such as ChatGPT, the same as other online resources. Again, if you do use AI tools for help in coding, you must explicity cite this.
+
+Unless instructed otherwise, you may **not** use generative AI to write narrative on assignments or to assist in answering exercises or homework problems. You are ultimately responsible for the work you turn in; it should reflect your understanding of the course content.
+
+### Late work & extensions {#sec-late-work-extensions}
+
+Due dates for assignments are there to give you structure and to help you keep up with the course material. They also help me provide you with feedback in a timely manner. That said, I understand that things come up periodically that can make it difficult to complete an assignment by the deadline. Life happens!
+
+If something comes up that prevents you from completing an assignment by the posted due date, just send me email and let me know when I can expect your work. You do not need to provide an explanation. In general, I will expect to receive your work within **one week**.
+
+There are, however, two **hard deadlines** to be aware of: Oct. 11th (Friday before Fall break) and Dec. 6th (last day of classes). Except in unusual circumstances or by prior arrangement, I will not accept work after those dates.
+
+### Important dates {#sec-important-dates}
+
+-   **Tuesday, August 27:** Classes begin
+-   **Friday, August 30:** Last day to add/drop
+-   **Friday, October 13:** First hard deadline, Project 1 due
+-   **Monday, October 15**: Fall Break begins
+-   **Monday, November 25:** Last day to Withdraw
+-   **Thursday, November 28:** Thanksgiving
+-   **Friday, December 6**: Last day of classes; 2nd hard deadline, Project 2 due
+-   **Monday, December 9**: Section H check-in, 10:30-12:30
+-   **Wednesday, December 11**: Section I check-in, 1:30-3:30.

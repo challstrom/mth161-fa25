@@ -1,0 +1,182 @@
+---
+title: "AE-01 Meet the Penguins"
+categories: 
+  - Application exercise
+number-sections: true
+number-depth: 1
+---
+
+![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style="float:right;" fig-alt="Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst." width="400"} In this activity, we will meet some penguins, start thinking about data and variables, and see some R code in action. The R package [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins "palmerpenguins R package") includes the `penguins` dataset which contains size measurements for three species of penguins observed on three islands in the Palmer Archipelago in Antarctica.
+
+
+## Goals
+
+-   Introduce RStudio and Quarto documents.
+-   Learn about datasets and variables
+-   Introduce basic R code for exploring datasets and variables. Specific R commands used in this activity include: `head`, `glimpse`, `count`, `table`, `mean`, `ggplot`
+
+## Packages and Data
+
+Throughout this course, we will be using the `tidyverse` package which is actually a collection of  many other packages designed to simplify working with data. For this activity, we also need the package `palmerpenguins` which contains the dataset that we'll be using.
+
+The following code chunk loads these packages into R.
+
+```{r}
+#| label: load-packages
+#| include: true
+#| warning: false
+
+library(tidyverse)
+library(palmerpenguins)
+
+```
+
+### About the data
+
+The `palmerpenguins` package includes data that were collected and made available by [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) and the [Palmer Station, Antarctica LTER](https://pallter.marine.rutgers.edu/), a member of the [Long Term Ecological Research Network](https://lternet.edu/) established by the National Science Foundation in 1980.
+
+You can find more information about the `palmerpenguins` package by reading this [vignette](https://allisonhorst.github.io/palmerpenguins/) maintained by Allison Horst (who also drew our friends above).  
+
+::: aside
+In the world of R, a *vingnette* is a detailed description of a package.  Looking at a package's vingnette is a good way to learn the names of the datasets included in a package.
+:::
+
+# A First Look at the Data
+
+Now that we've loaded the `palmerpenguins` package, we can now begin to investigate the data. The data is organized in what we'll call a **data frame**.  This means that we have rectangular array where each row is an individual penguin (**observation**) and each column is a particular attribute of penguins (**variable**).
+
+To see this data, we need to know the name of the dataset.  If we were loading a raw data file into R (more on this later) we would choose the name ourselves.  But since this data frame was included in the `palmerpenguins` packgage, it's already been given the name `penguins`.  We can take a peek by simply typing in the name of this data frame into an R code chunk:
+
+```{r}
+penguins
+
+```
+
+The result (output) a table (tibble) which shows us the first ten rows of the data frame. When working with data, we typically want each row to be an individual observation (or case), each column to be a variable, and each entry (cell) to be a single value. Data that is in this format is called **tidy**. A significant part of the work involved in working with and analyzing data is getting it tidy, a process often referred to as "cleaning".
+
+::: {.callout-note title="Task 1" icon="false"}
+-   How many total rows are contained in this data frame?
+-   What does each row in this data frame represent?
+-   How many total variables are there in this dataset?  Which are numerical?  Which are categorical?
+-   What other questions do you have about this table?
+:::
+
+### Other points of view
+
+R gives us many tools for viewing the data.  Here are are two other commands that can be useful.  If we want to control how many rows we see at once, we can use the `head()` command.
+
+```{r}
+head(penguins)
+```
+
+The default is to show six rows, but we can change that by typing something like `head(penguins, 20)`.
+
+::: {.callout-note title="Task 2" icon="false"}
+What do you think the output of this command will be?  Go ahead and edit the code chunk above and see what happens when you Render again.
+
+:::
+
+Another useful way to look at a dataframe is the `glimpse()` command:
+```{r}
+glimpse(penguins)
+```
+
+::: {.callout-note title="Task 3" icon="false"}
+How is this way of looking at the dataframe different?
+:::
+
+# Summary Statistics
+
+A **summary statistic** is a single number that summarizes our data in some meaningful way. For example, we might ask:
+
+-   What percentage of our penguins are Adelie?
+-   What percentage of our Adelie penguins were found on Torgersen island?
+-   What is the average (mean) flipper length of our penguins?
+
+We can use R to help us analyze the data to answer these questions. We might start by counting how many penguins of each species there are.
+
+```{r}
+count(penguins, species)
+```
+
+::: {.callout-note title="Task 4" icon="false"}
+How many Adelie penguins are in this dataset?  What's the total number of penguins?   What *percentage* of the total number of penguins are Adelie?
+:::
+
+
+We can do something similar to determine how many penguins are on each island.
+
+::: {.callout-note title="Task 5" icon="false"}
+Add code to the chunk below that determines how many penguins are on each island.  Your code will be exactly the same as above, except the varaible `species` should be replaced with different variable.   Does this help us answer our second question?  Why or why not?
+:::
+
+```{r}
+
+```
+
+### Two-way tables
+
+To answer our question, it seems we need to dig deeper. Here we produce what's sometimes called a two-way, or contingency, table. We'll see these again later in the semester but for now, just make a note of the R code and the output.
+
+```{r}
+table(penguins$species, penguins$island)
+```
+
+
+::: {.callout-note title="Task 6" icon="false"}
+With the data organized this way, can you determine what percentage of the total number of Adelie penguins are found on Torgenson island?
+:::
+
+### Mean (average)
+We'll have more to say about this later on, but just as one more example of a summary statistic, we can easily calculate means with the following code chunk:  
+
+```{r}
+mean( penguins$flipper_length_mm, na.rm = TRUE )
+
+```
+:::{.aside}
+Notice the `na.rm = TRUE` in the code.  This tells R to ignore any observations for which the variable `flipper_length_mm` has a value of `NA`.
+:::
+
+::: {.callout-note title="Task 7" icon="false"}
+Add a new code-chunk below to find the average (mean) body weight of the penguins in out dataset.
+:::
+
+
+
+
+# Visualizing Data
+
+An important tool in understanding and analyzing data is visualization. For example, we can use a **scatterplot** to help us understand relationships between numerical variables. Let's look at a scatterpolot that compares body mass and flipper length.
+
+```{r}
+ggplot(data = penguins, 
+       mapping = aes(x = flipper_length_mm, y = body_mass_g)) +
+geom_point()
+
+```
+
+
+::: {.callout-note title="Task 8" icon="false"}
+-   What does each point on the graph represent?
+-   Based on this scatterplot, how would you describe the relationship between these two variables?
+-   When we ran the code to make this graph, a warning message appeared. What do you think is going on? (hint: go back and look at the data frame.)
+:::
+
+R gives us the ability to modify and customize our visualizations a great deal -- indeed this is one of the main strengths of R! Let's add one more feature to our graph. As we know, there are three different species of penguins in our data set -- but our scatter plot does not show this!
+
+```{r}
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)) +
+geom_point(mapping = aes(color = species, shape = species))
+```
+:::{.aside}
+Because people can perceive colors differently due to color blindness or other color vision differences and since different devices might display colors in unexpected ways, it's good practice to not rely on color alone to distinguish points. 
+:::
+
+::: {.callout-note title="Task 9" icon="false"}
+-   How does the addition of coloring by species change your understanding of this graph?
+-   What additional questions about this data can you come up with?
+:::
+
