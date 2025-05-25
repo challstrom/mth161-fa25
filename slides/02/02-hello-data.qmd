@@ -1,0 +1,113 @@
+---
+title: Hello Data
+subtitle: Thursday, Week 1
+format: revealjs
+
+auto-stretch: false
+
+---
+
+# A Quick Tour of mth161
+
+## Announcements
+
+## In-class
+- short lectures/demos
+- group work, Q&A
+- hands-on practice with R (*Application Exercises*)
+- Attendence and engagment is expected!
+
+## Course Components
+- Suggested HW -- every class
+- Engagement report -- weekly
+- Check-ins (quizzes) -- rougly every other week
+- Labs -- every few weeks 
+- 2 Projecss
+
+# Getting to know R/RStudio
+
+## **R** programming language 
+
+::: columns
+::: {.column width="60%"}
+- statistical computing and data visualization
+- free, open-source
+- widely used
+
+:::
+
+::: {.column width="40%"}
+![](images/r-logo.png){fig-alt="R logo" fig-align="right"}
+:::
+:::
+
+
+## **RStudio / PositCloud** 
+::: columns
+::: {.column width="60%"}
+- user interface
+- free
+- PositCloud (nothing to install)
+
+:::
+
+::: {.column width="40%"}
+![](images/rstudio-logo.png){fig-alt="R logo" fig-align="right"}
+:::
+:::
+
+
+
+## Penguins
+
+```{r}
+library(palmerpenguins)
+library(tidyverse)
+
+glimpse(penguins)
+```
+
+
+## An improved goal {.smaller}
+
+::: panel-tabset
+## Plot
+
+```{r}
+#| ref.label: "improved-goal-plot"
+#| echo: false
+```
+
+## Code
+
+```{r}
+#| label: improved-goal-plot
+#| eval: false
+
+ggplot(
+  penguins,
+  aes(x = bill_depth_mm, y = bill_length_mm, color = species, shape = species)) +
+  geom_point(size = 2) +
+  labs(
+    title = "Bill depth and length",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+    x = "Bill depth (mm)", y = "Bill length (mm)",
+    color = "Species",
+    shape = "Species",
+    caption = "Source: Palmer Station LTER / palmerpenguins package"
+  ) +
+  theme_minimal() +
+  ggthemes::scale_color_colorblind()
+```
+
+## Narrative
+
+Start with the `penguins` data frame, map bill depth to the x-axis and map bill length to the y-axis.
+
+Represent each observation with a point and map species to the color and shape of each point.
+
+Title the plot "Bill depth and length", add the subtitle "Dimensions for Adelie, Chinstrap, and Gentoo Penguins", label the x and y axes as "Bill depth (mm)" and "Bill length (mm)", respectively, label the legend "Species", and add a caption for the data source.
+
+Finally, use a discrete color scale that is designed to be perceived by viewers with common forms of color blindness.
+:::
+
